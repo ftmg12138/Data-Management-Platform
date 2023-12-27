@@ -20,5 +20,5 @@
 进入client 目录，执行npm run start启动3000端口
 停掉3000端口
 进入client 目录，执行npm run build命令，编译前端代码到client/build目录。在server代码中，使用 koa-static将这个目录变为静态资源目录
-打开 http://localhost:3001/index.html，体验功能
+打开 http://localhost:3001/index.html     ，体验功能
 

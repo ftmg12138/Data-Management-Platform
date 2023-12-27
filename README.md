@@ -1,5 +1,3 @@
-此目录存放本周课后作业，可以在此文件添加作业设计思路和流程图等
-
 前端使用到的包antd,axios等。（package.json）应该有。
 
 2023.12.20 后端已全部完成，已用postman测试，可以正常实现增删查改数据和标签，并且实现了添加数据后自动添加相关标签，以及无法删除
@@ -17,4 +15,10 @@
 ​					bug已修正
 
 ## PS:后端使用指令npm run initDB初始化数据库
+
+进入server 目录，执行npm run start 启动3001端口
+进入client 目录，执行npm run start启动3000端口
+停掉3000端口
+进入client 目录，执行npm run build命令，编译前端代码到client/build目录。在server代码中，使用 koa-static将这个目录变为静态资源目录
+打开 http://localhost:3001/index.html，体验功能
 

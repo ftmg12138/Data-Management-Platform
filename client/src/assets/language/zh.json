@@ -1,0 +1,82 @@
+{
+    "navbar": {
+      "title": "数据管理平台",
+      "settings": "设置"
+    },
+    "addDataDialog": {
+      "title": "添加数据",
+      "namePlaceholder": "名称",
+      "descriptionPlaceholder": "描述",
+      "selectTags": "选择标签"
+    },
+    "addTagsDialog": {
+      "title": "添加标签",
+      "placeholder": "请输入标签名称"
+    },
+    "dataTable": {
+      "columns": {
+        "id": "编号",
+        "name": "名称",
+        "description": "描述",
+        "time": "添加时间",
+        "tags": "标签",
+        "action": "操作"
+      },
+      "popover": {
+        "otherTags": "其他标签"
+      },
+      "filters": {
+        "name": "名称：",
+        "enterName": "请输入搜索名称",
+        "tags": "标签：",
+        "selectTags": "请选择标签",
+        "addTime": "添加时间：",
+        "selectDate": "选择日期"
+      }
+    },
+    "common": {
+      "edit": "编辑",
+      "delete": "删除",
+      "search": "搜索",
+      "reset": "重置",
+      "add": "添加",
+      "cancel": "取消",
+      "confirm": "确定",
+      "save": "保存",
+      "submit": "提交",
+      "change": "更改"
+    },
+    "editTagDialog": {
+      "title": "编辑标签",
+      "tagNamePlaceholder": "请输入标签名称",
+      "saveChanges": "保存更改"
+    },
+    "validation": {
+      "nameRequired": "名称不能为空",
+      "tagRequired": "请至少选择一个标签",
+      "tagNameRequired": "标签名称不能为空",
+      "tagUsed": "标签已被使用"
+    },
+    "editDataDialog": {
+      "title": "编辑数据",
+      "namePlaceholder": "名称",
+      "descriptionPlaceholder": "描述",
+      "selectTags": "选择标签"
+    },
+    "tagsTable": {
+      "columns": {
+        "tag": "标签",
+        "action": "操作"
+      },
+      "addTag": "添加标签"
+    },
+    "settings": {
+      "title": "设置",
+      "saveSettings": "保存设置",
+      "language": "语言："
+    },
+    "sidebar": {
+      "dataTable": "数据表格",
+      "tagsTable": "标签表格"
+    }
+  }

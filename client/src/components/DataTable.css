@@ -1,0 +1,51 @@
+.filter-bar {
+    display: flex;         /* 启用Flexbox */
+    align-items: center;   /* 垂直居中子元素 */
+    gap: 10px;             /* 在子元素之间添加一些间隔 */
+  }
+.data-container {
+  background-color: #f5f5f5; /* 浅灰色背景 */
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.filter-bar {
+  background-color: white; /* 白色背景 */
+  padding: 16px;
+  margin-bottom: 16px; /* 模块间距 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 元素间距 */
+}
+
+.table-container {
+  background-color: white; /* 白色背景 */
+}
+.table-container .ant-table {
+  padding: 8px; /* 增加内边距 */
+  border-spacing: 0 8px; /* 行间距 */
+}
+
+.table-container .ant-table-thead > tr > th {
+  background-color: #f0f0f0; /* 表头背景色 */
+  border-bottom: 2px solid #e8e8e8; /* 表头底部边框 */
+}
+
+.table-container .ant-table-tbody > tr > td {
+  background-color: #fff; /* 表格行背景色 */
+}
+
+.add-btn-container {
+  text-align: right; /* 添加按钮向右对齐 */
+  padding: 16px 16px 16px 8px; /* 内边距，确保右对齐 */
+}
+.select-placeholder-left-align .ant-select-selection-placeholder {
+  text-align: left;
+}
+.text-ellipsis {
+  display: inline-block;
+  max-width: 150px; /* 或您期望的最大宽度 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

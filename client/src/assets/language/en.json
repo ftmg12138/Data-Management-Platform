@@ -1,0 +1,81 @@
+{
+    "navbar": {
+      "title": "Data Management Platform",
+      "settings": "Settings"
+    },
+    "addDataDialog": {
+        "title": "Add Data",
+        "namePlaceholder": "Name",
+        "descriptionPlaceholder": "Description",
+        "selectTags": "Select Tags"
+    },
+    "addTagsDialog": {
+      "title": "Add Tag",
+      "placeholder": "Enter tag name"
+    },
+    "dataTable": {
+      "columns": {
+        "id": "ID",
+        "name": "Name",
+        "description": "Description",
+        "time": "Time",
+        "tags": "Tags",
+        "action": "Action"
+      },
+      "popover": {
+        "otherTags": "Other Tags"
+      },
+      "filters": {
+        "name": "Name:",
+        "enterName": "Enter name for search",
+        "tags": "Tags:",
+        "selectTags": "Select tags",
+        "addTime": "Add Time:",
+        "selectDate": "Select date"
+      }
+    },
+    "common": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "search": "Search",
+      "reset": "Reset",
+      "add": "Add",
+      "cancel": "Cancel",
+      "save": "Save",
+      "submit": "Submit",
+      "change": "Change"
+    },
+    "editTagDialog": {
+      "title": "Edit Tag",
+      "tagNamePlaceholder": "Enter tag name",
+      "saveChanges": "Save Changes"
+    },
+    "validation": {
+      "nameRequired": "Name cannot be empty",
+      "tagRequired": "Please select at least one tag",
+      "tagNameRequired": "Tag name cannot be empty",
+      "tagUsed": "Tag is used by data, cannot be deleted"
+    },
+    "editDataDialog": {
+      "title": "Edit Data",
+      "namePlaceholder": "Name",
+      "descriptionPlaceholder": "Description",
+      "selectTags": "Select Tags"
+    },
+    "settings": {
+      "title": "Settings",
+      "saveSettings": "Save Settings",
+      "language": "Language:"
+    },
+    "tagsTable": {
+      "columns": {
+        "tag": "Tag",
+        "action": "Action"
+      },
+      "addTag": "Add Tag"
+    },
+    "sidebar": {
+      "dataTable": "Data Table",
+      "tagsTable": "Tags Table"
+    }
+}

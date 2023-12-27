@@ -1,0 +1,56 @@
+.sidebar {
+    margin-top: 75px; /* Navbar 的高度 */
+    left: 0;
+    position:relative ;
+    width: 200px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: width 0.3s ease;
+    bottom: 0; /* 延伸到底部 */
+    }
+
+  
+  
+  .sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .sidebar.collapsed {
+    width: 50px; /* 侧边栏收缩后的宽度 */
+  }
+  
+  .sidebar-toggle {
+    display: flex;
+    justify-content:center; /* 将箭头按钮置于侧边栏顶部右侧 */
+    cursor: pointer;
+    max-width: 100%; /* 图片最大宽度为容器宽度 */
+    max-height: 30px; /* 图片最大高度为30px */
+    height: auto; /* 高度自动调整 */
+  }
+  
+  /* 确保图标的颜色与侧边栏风格一致 */
+  .sidebar-toggle > * {
+    color: white; /* 或其他颜色 */
+    font-size: 16px; /* 或根据设计调整 */
+  }
+  
+  .sidebar button:hover {
+    background-color: #34495e;
+  }
+  .sidebar.collapsed .sidebar-toggle img {
+    transform: rotate(180deg); /* 或根据箭头图片调整旋转角度 */
+  }
+  .toggle-arrow {
+    /* 使用 px 单位来指定大小 */
+    width: 30px; /* 设置图片宽度 */
+    height: 30px; /* 设置图片高度，使其成为正方形 */
+    transition: transform 0.3s ease;
+  }
+  
